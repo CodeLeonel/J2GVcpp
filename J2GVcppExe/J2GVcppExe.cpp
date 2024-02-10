@@ -1,11 +1,26 @@
 // J2GVcppExe.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
 //
-
+#include <test.h>
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
+	const char* texto = "digraph G {\n"
+		"a -> b;\n"
+		"c [shape=box];\n"
+		"a -> c [weight=29,label=\"some text\"];\n"
+		"subgraph anything {\n"
+		"/* the following affects only x,y,z */\n"
+		"node [shape=circle];\n"
+		"a; x; y -> z; y -> z; /* multiple edges */\n"
+		"}\n"
+		"}";
+
+	testRenderGraph(texto, "neato", "pdf", "Teste2.pdf");
+
+	std::printf("Test!");
+
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
