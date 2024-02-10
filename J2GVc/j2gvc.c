@@ -2,7 +2,7 @@
 #include "cgraph.h"
 #include "gvc.h"
 
-static void renderGraph(const char * dotCommands, const char * engine, const char * formatFile, const char * fileName) {
+void renderGraph(const char * dotCommands, const char * engine, const char * formatFile, const char * fileName) {
 
 	Agraph_t* g;
 	GVC_t* gvc;
@@ -19,6 +19,6 @@ static void renderGraph(const char * dotCommands, const char * engine, const cha
 	agclose(g);
 
 	/* close output file, free context, and return number of errors */
-	return (gvFreeContext(gvc));
+	gvFreeContext(gvc);
 
 }

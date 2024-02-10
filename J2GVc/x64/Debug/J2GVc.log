@@ -1,3 +1,2 @@
-﻿  j2gvc.c
-I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\J2GVc\j2gvc.c(22,29): warning C4098: 'renderGraph': função 'void' retornando um valor
+﻿cgraph.lib(cgraph.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR já definido no gvc.lib(gvc.dll); segunda definição ignorada
   J2GVc.vcxproj -> I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\x64\Debug\J2GVc.lib

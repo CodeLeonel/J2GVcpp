@@ -1,0 +1,5 @@
+﻿  implementation.cpp
+I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\J2GVcpp\implementation.cpp(26,1): error C1010: fim de arquivo inesperado durante procura por cabeçalho pré-compilado. Você esqueceu de adicionar '#include "pch.h"' à sua fonte?
+  test.cpp
+I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\J2GVcpp\test.cpp(9,1): error C1010: fim de arquivo inesperado durante procura por cabeçalho pré-compilado. Você esqueceu de adicionar '#include "pch.h"' à sua fonte?
+  Gerando Código...

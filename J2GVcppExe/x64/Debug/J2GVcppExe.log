@@ -1,1 +1,1 @@
-﻿LINK : fatal error LNK1104: não é possível abrir o arquivo 'I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\x64\Debug\J2GVcpp.lib'
+﻿I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\x64\Debug\J2GVcpp.dll : fatal error LNK1107: arquivo inválido ou corrompido: não é possível ler em 0x3A0
