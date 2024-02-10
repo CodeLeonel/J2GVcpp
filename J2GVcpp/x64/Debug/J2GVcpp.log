@@ -1,2 +1,2 @@
-﻿test.obj : error LNK2019: símbolo externo não resolvido, "void __cdecl renderGraph(char const *,char const *,char const *,char const *)" (?renderGraph@@YAXPEBD000@Z), referenciado na função "void __cdecl testRenderGraph(char const *,char const *,char const *,char const *)" (?testRenderGraph@@YAXPEBD000@Z)
-I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\x64\Debug\J2GVcpp.dll : fatal error LNK1120: 1 externo não resolvidos
+﻿  test.cpp
+  J2GVcpp.vcxproj -> I:\Desenvolvimento\Projetos\J2GVcpp\J2GVcpp\x64\Debug\J2GVcpp.dll
